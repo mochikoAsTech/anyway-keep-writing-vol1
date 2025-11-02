@@ -27,12 +27,17 @@
   \end{alltt}\end{shadedb}}
 
 % ヘッダ・フッタの指定
+% 章番号のプレフィックス・ポストフィックスを空に
+\renewcommand{\prechaptername}{}
+\renewcommand{\postchaptername}{}
+% ページ上部のヘッダーは章タイトルのみにして章番号を表示しない
+\renewcommand{\thechapter}{}
 \fancyhead{}
 \fancyhead[LE]{\gtfamily\sffamily\bfseries\upshape \leftmark}
 \fancyhead[RO]{\gtfamily\sffamily\bfseries\upshape \rightmark}
 \renewcommand{\chaptermark}[1]{%
   \if@mainmatter
-    \markboth{\prechaptername\ \thechapter\ \postchaptername~#1}{}
+    \markboth{#1}{}
   \else
     \markboth{#1}{#1}
   \fi}
