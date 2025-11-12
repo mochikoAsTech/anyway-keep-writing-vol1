@@ -22,7 +22,7 @@ bookname: anyway-keep-writing-vol1
 language: ja
 
 # 書名
-booktitle: {name: "Anyway, Keep Writing!", file-as: "キープライティングエニウェイ"}
+booktitle: {name: "Anyway, Keep Writing!", file-as: "エニウェイキープライティング"}
 subtitle: {name: "vol. 1", file-as: "ボリュームワン"}
 
 # 著者名。「, 」で区切って複数指定できる
