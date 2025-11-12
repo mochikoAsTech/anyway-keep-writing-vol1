@@ -27,7 +27,7 @@ mochikoAsTech
  * ダウンロードURL
  ** @<href>{https://mochikoastech.booth.pm/items/7609150}
  * パスワード
- ** @<ttb>{AVeryCat-LikeCat}
+ ** @<ttb>{****}
 
 == Special Thanks:
 
